@@ -19,7 +19,7 @@ class AI_CAMERA:
     data = ''
     if self._uart: # from camera AI
       while self._uart.any():
-        data = self.uart.readline()
+        data = self._uart.readline()
     else:
       data = self._read_repl()
     
