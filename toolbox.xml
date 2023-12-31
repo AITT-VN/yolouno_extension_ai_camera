@@ -1,0 +1,22 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category id="ai_camera" name="AI CAMERA" colour="#0b5394" icon="camera">
+    <block type="ai_camera_init" />
+    <block type="ai_camera_init_mobile_app" />
+    <block type="ai_camera_check_result">
+      <value name="CLASS">
+        <shadow type="text">
+          <field name="TEXT">ket_qua_1</field>
+        </shadow>
+      </value>
+      <value name="PREDICTION">
+        <shadow type="math_number">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="ai_camera_update" />
+    <block type="ai_camera_get_classname" />
+    <block type="ai_camera_get_prediction" />
+       
+  </category>
+</xml>
